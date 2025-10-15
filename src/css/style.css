@@ -13,3 +13,8 @@ body {
 .tip-active {
     display: block;
 }
+
+/* ******** добавил ********** */
+.img {
+    width: 300px;
+}
