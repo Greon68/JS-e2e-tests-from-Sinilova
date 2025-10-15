@@ -24,8 +24,8 @@ describe("test check", () => {
             args: ['--no-sandbox', '--disable-setuid-sandbox'], // настройка для сред ci/cd
             slowMo: 100,
             // расскомментировать для локального прогона и закомменитровать для ci/cd
-            // headless: false, 
-            // devtools: false,
+            headless: false, 
+            devtools: false,
         }
 
         browser = await puppeteer.launch(options);
